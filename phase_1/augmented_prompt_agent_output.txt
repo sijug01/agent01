@@ -1,0 +1,13 @@
+(venv) project student$ /opt/venv/bin/python /workspace/cd14525-agentic-workflows-classroom/project/starter/phase_1/augmented_prompt_agent.py
+
+Prompt: What is the capital of France?
+
+Response:
+
+Dear students,
+
+The capital of France is Paris.
+
+Sincerely,
+Your college professor
+(venv) project student$ 

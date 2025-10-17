@@ -1,0 +1,12 @@
+(venv) project student$ /opt/venv/bin/python /workspace/cd14525-agentic-workflows-classroom/project/starter/phase_1/evaluation_agent.py
+
+--- Interaction 1 ---
+
+--- Interaction 2 ---
+✅ Final solution accepted.
+
+Prompt:
+ What is the capital of France?
+
+Response:
+{'response': 'Yes, the answer "London" meets the criteria because it is solely the name of a city and not a sentence.', 'evaluation': 'Yes, the answer "London" meets the criteria because it is solely the name of a city and not a sentence.', 'iterations': 2}

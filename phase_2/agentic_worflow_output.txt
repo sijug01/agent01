@@ -1,0 +1,115 @@
+(venv) project student$ /opt/venv/bin/python /workspace/cd14525-agentic-workflows-classroom/project/starter/phase_2/agentic_workflow.py
+
+*** Workflow execution started ***
+
+
+Defining workflow steps from the workflow prompt
+1. Develop an Email Ingestion System:
+   - Integrate with email services via SMTP, IMAP, and RESTful APIs.
+   - Retrieve and preprocess emails in real-time to extract metadata and content.
+
+2. Implement a Message Classification Module:
+   - Use LLM-based classifiers to analyze email content and determine intent and category.
+   - Assign confidence scores for automated responses or manual handling decisions.
+
+3. Integrate a Knowledge Base:
+   - Implement a vector database for efficient storage and retrieval of organizational knowledge.
+   - Continuously update the knowledge base with new information from resolved inquiries.
+
+4. Deploy a Response Generation Engine:
+   - Utilize a RAG system to generate contextually accurate responses.
+   - Include an approval workflow for reviewing and editing automated responses.
+
+5. Develop Routing Logic:
+   - Create a rules-based engine to assign emails to appropriate SMEs based on content analysis.
+   - Enable context-aware forwarding with relevant metadata and correspondence history.
+
+6. Design a User Interface:
+   - Develop a dashboard for monitoring system performance and metrics.
+   - Provide a configuration panel for managing the knowledge base, routing rules, and system settings.
+   - Implement manual override options for human intervention when necessary.
+
+***Executing step:***
+
+  Develop an Email Ingestion System: Integrate with email services via SMTP, IMAP, and RESTful APIs. Retrieve and preprocess emails in real-time to extract metadata and content.
+
+***Tasks:***
+
+ The development tasks for the Email Ingestion System would include:
+
+1. Implementing SMTP integration to send and receive emails.
+2. Implementing IMAP integration to retrieve emails from mail servers.
+3. Implementing RESTful API integration to interact with email services.
+4. Developing real-time email retrieval functionality to continuously fetch incoming emails.
+5. Implementing preprocessing logic to extract metadata and content from emails.
+6. Testing the system to ensure proper functionality and performance.
+7. Documenting the system architecture and functionality for future reference.
+
+***Executing step:***
+
+  Implement a Message Classification Module: Use LLM-based classifiers to analyze email content and determine intent and category. Assign confidence scores for automated responses or manual handling decisions.
+
+***Tasks:***
+
+ 1. Research LLM-based classifiers and determine the best approach for implementing them in the message classification module.
+2. Develop a system to extract email content and preprocess it for analysis by the classifiers.
+3. Implement the LLM-based classifiers to analyze the preprocessed email content and determine intent and category.
+4. Develop a method to assign confidence scores based on the classifier outputs for automated responses or manual handling decisions.
+5. Test the message classification module with a variety of email content to ensure accuracy and reliability of the classification results.
+6. Refine the module based on test results and feedback to improve performance and efficiency.
+7. Document the implementation details, including the classifier used, preprocessing steps, confidence score calculation method, and testing results for future reference.
+
+***Executing step:***
+
+  Integrate a Knowledge Base: Implement a vector database for efficient storage and retrieval of organizational knowledge. Continuously update the knowledge base with new information from resolved inquiries.
+
+***Tasks:***
+
+ Feature: Knowledge Base Integration
+
+Description: This feature involves implementing a vector database for efficient storage and retrieval of organizational knowledge. It also includes the continuous updating of the knowledge base with new information from resolved inquiries.
+
+User Stories:
+1. As a user, I want to be able to access the knowledge base easily to find relevant information.
+2. As a user, I want the knowledge base to have a search functionality for quick retrieval of information.
+3. As a user, I want the knowledge base to be organized in a way that makes it easy to navigate and understand.
+4. As a user, I want the knowledge base to be continuously updated with new information from resolved inquiries.
+5. As a user, I want the knowledge base to have version control to track changes and updates.
+6. As a user, I want the knowledge base to have permissions settings to control access to sensitive information.
+7. As a user, I want the knowledge base to have a feedback mechanism for users to suggest improvements or report inaccuracies.
+
+***Executing step:***
+
+  Deploy a Response Generation Engine: Utilize a RAG system to generate contextually accurate responses. Include an approval workflow for reviewing and editing automated responses.
+
+***Tasks:***
+
+ Development tasks for deploying a Response Generation Engine utilizing a RAG system to generate contextually accurate responses and including an approval workflow for reviewing and editing automated responses may include:
+
+1. Research and select a suitable RAG system for response generation.
+2. Set up the RAG system environment for integration with the existing platform.
+3. Develop algorithms for contextually accurate response generation based on user inputs.
+4. Implement an approval workflow feature for reviewing and editing automated responses.
+5. Integrate the approval workflow with user roles and permissions for access control.
+6. Conduct testing to ensure the accuracy and effectiveness of the response generation engine.
+7. Gather feedback from users and stakeholders for further improvements and refinements.
+8. Document the deployment process and provide training for users on how to utilize the new system effectively.
+
+***Executing step:***
+
+  Develop Routing Logic: Create a rules-based engine to assign emails to appropriate SMEs based on content analysis. Enable context-aware forwarding with relevant metadata and correspondence history.
+
+***Tasks:***
+
+ Feature: Email Routing System
+
+Description: This feature will involve developing a rules-based engine that can analyze the content of incoming emails and assign them to the appropriate Subject Matter Experts (SMEs). The system will enable context-aware forwarding by considering relevant metadata and correspondence history.
+
+User Stories:
+1. As a user, I want incoming emails to be automatically analyzed for content.
+2. As a user, I want the system to assign emails to the most suitable SME based on the content analysis.
+3. As a user, I want the system to consider metadata such as sender information and email subject for routing decisions.
+4. As a user, I want the system to take into account the correspondence history with the sender for context-aware forwarding.
+5. As a user, I want to be able to customize rules for email routing based on specific criteria.
+6. As a user, I want to receive notifications or alerts for emails that require manual intervention or override of routing rules.
+(venv) project student$ 

@@ -1,0 +1,11 @@
+(venv) project student$ /opt/venv/bin/python /workspace/cd14525-agentic-workflows-classroom/project/starter/phase_1/direct_prompt_agent.py
+
+Prompt:
+What is the Capital of France?
+
+Response:
+The capital of France is Paris.
+
+Knowledge source is gpt-3.5-turbo Large Language Model from OpenAI
+
+(venv) project student$ 

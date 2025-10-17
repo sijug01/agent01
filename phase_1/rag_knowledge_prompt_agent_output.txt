@@ -1,0 +1,15 @@
+(venv) project student$ /opt/venv/bin/python /workspace/cd14525-agentic-workflows-classroom/project/starter/phase_1/rag_knowledge_prompt_agent.py
+Chunking text...
+Total text length: 3904 characters
+Created 3 chunks.
+Getting embedding for text of length: 1932
+Getting embedding for text of length: 1899
+Getting embedding for text of length: 267
+Getting embedding for text of length: 43
+Dear students,
+
+Clara hosts a podcast that explores a wide range of topics at the intersection of technology, science, culture, and ethics. Through her podcast, she delves into subjects such as retrieval-augmented generation (RAG) for scientific research, preserving endangered dialects, ocean temperature anomalies, biodiversity loss, smart city infrastructure, blockchain for sustainability, quantum encryption, and misinformation detection in synthetic media. Clara's podcast also touches on themes like generative AI, autonomous weapons, and the carbon footprint of large language models (LLM) training runs. Additionally, she incorporates her technical skills by creating Python-based dashboards and collaborating with her friend Amir, a data engineer. Clara's podcast reflects her passion for exploring the connections between traditional knowledge systems, cutting-edge technologies, and ethical considerations in a rapidly evolving world.
+
+Best regards,
+[Your Name]
+(venv) project student$ 
