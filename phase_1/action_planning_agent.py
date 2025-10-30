@@ -4,20 +4,20 @@ import numpy as np
 import pandas as pd
 import re
 import csv
-import uuid
+import uuid,os
 from datetime import datetime
 from dotenv import load_dotenv
 from workflow_agents.base_agents import ActionPlanningAgent
 
 # TODO: 2 - Load environment variables and define the openai_api_key variable with your OpenAI API key
 
-openai_api_key = "voc-1005963941159874436462368c0af5b6c4317.26188318"
+load_dotenv(".env")
 
-load_dotenv()
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(
     base_url = "https://openai.vocareum.com/v1",
-    api_key="voc-1005963941159874436462368c0af5b6c4317.26188318")
+    api_key=openai_api_key)
 
 
 

@@ -4,14 +4,11 @@ from dotenv import load_dotenv
 from workflow_agents.base_agents import RAGKnowledgePromptAgent
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(".env")
 
 # Define the parameters for the agent
-#openai_api_key = os.getenv("OPENAI_API_KEY")
-openai_api_key = "voc-1005963941159874436462368c0af5b6c4317.26188318"
-#openai_api_key= "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"
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
-persona = "You are a college professor, your answer always starts with: Dear students,"
 RAG_knowledge_prompt_agent = RAGKnowledgePromptAgent(openai_api_key, persona) # TODO: 2 - Instantiate RAGKnowledgePromptAgent
 
 knowledge_text = """

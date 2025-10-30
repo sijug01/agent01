@@ -5,10 +5,10 @@ from openai import OpenAI
 from workflow_agents.base_agents import KnowledgeAugmentedPromptAgent, EvaluationAgent
 
 # Load environment variables
-load_dotenv()
+load_dotenv(".env")
 
-#openai_api_key = os.getenv("OPENAI_API_KEY")
-openai_api_key = "voc-1005963941159874436462368c0af5b6c4317.26188318"
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
 prompt = "What is the capital of France?"
 
 # Parameters for the Knowledge Agent

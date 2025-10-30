@@ -8,8 +8,9 @@ from time import sleep
 from dotenv import load_dotenv
 from workflow_agents.base_agents import (ActionPlanningAgent, KnowledgeAugmentedPromptAgent, EvaluationAgent, RoutingAgent)
 
+load_dotenv(".env")
 # TODO: 2 - Load the OpenAI key into a variable called openai_api_key
-openai_api_key = "voc-1005963941159874436462368c0af5b6c4317.26188318"
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # load the product spec
 # TODO: 3 - Load the product spec document Product-Spec-Email-Router.txt into a variable called product_spec

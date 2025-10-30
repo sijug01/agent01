@@ -5,10 +5,11 @@ from openai import OpenAI
 from workflow_agents.base_agents import AugmentedPromptAgent
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(".env")
 
 # Retrieve OpenAI API key from environment variables
-openai_api_key = "voc-1005963941159874436462368c0af5b6c4317.26188318"
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
 
 prompt = "What is the capital of France?"
 persona = "You are a college professor; your answers always start with: 'Dear students,'"

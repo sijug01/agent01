@@ -7,10 +7,10 @@ from workflow_agents.base_agents import DirectPromptAgent # TODO: 1 - Import the
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(".env")
 
 # TODO: 2 - Load the OpenAI API key from the environment variables
-openai_api_key = "voc-1005963941159874436462368c0af5b6c4317.26188318"
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 prompt = "What is the Capital of France?"
 
